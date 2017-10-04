@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+  <head>
+    <title>Web Store</title>
+    <script type="text/javascript" src="formChecker.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+    integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous" />
+    <link href = "style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <header>
+    <br><br>
+    <h2>Magician Accessories Store!</h2>
+    <br><br>
+  </header>
+  <br>
+  <body>
+
+    <form onsubmit="return validate();" action="customerBackend.php" method="post">
+
+      <div class="store">
+        Magic Wand - $3.50<br>
+        <input id="wands" type="number" name="wands"><br>
+
+        Deck of Cards - $6.00<br>
+        <input id="cards" type="number" name="cards"><br>
+
+        Suit with Hidden Pockets - $250.00<br>
+        <input id="suits" type="number" name="suits"><br>
+      </div>
+
+      <div class="username">
+        User Name <br>
+        <input id="username" type="text" name="username"> <br>
+      </div>
+
+      <div class="password">
+        Password <br>
+        <input id="password" type="password" name="password"> <br>
+      </div>
+
+      <div class="shipping">
+        <br>Shipping Options<br>
+        <input id="s1" type="radio" name="shipping" value="0"></input>Free - 7 Day<br>
+        <input id="s2" type="radio" name="shipping" value="5"></input>$5.00 - 3 Day<br>
+        <input id="s3" type="radio" name="shipping" value="50"></input>$50.00 - Overnight<br>
+      </div>
+
+      <div class="buttons">
+        <br>
+        <input type="reset"/> <!-- How convenient -->
+        <input type="submit" value="Submit"/>
+      </div>
+
+    </form>
+  </body>
+</html>

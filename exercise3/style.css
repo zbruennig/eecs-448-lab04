@@ -1,0 +1,97 @@
+/*FRONTEND*/
+input[type=radio]
+{
+  width:28px;
+  margin:8px;
+  padding:10px;
+}
+header
+{
+  background-color:lightgrey;
+  color:black;
+}
+h2
+{
+  margin-left:40px;
+}
+div.store
+{
+  margin-left:40px;
+  margin-bottom:20px;
+}
+div.username
+{
+  margin-left:40px;
+  margin-bottom:10px;
+}
+div.password
+{
+  margin-left:40px;
+  margin-bottom:10px;
+}
+div.shipping
+{
+  margin-left:40px;
+}
+div.buttons
+{
+  margin-left:40px;
+}
+input[type=reset]
+{
+  width: 80px;
+  margin: 10px;
+  padding:5px;
+}
+input[type=submit]
+{
+  width: 80px;
+  margin: 10px;
+  padding:5px;
+}
+input[type=number]
+{
+  margin:8px;
+  width:80px;
+}
+body
+{
+  color:#efe;
+  background-color:grey;
+}
+
+/*BACKEND*/
+table
+{
+  text-align:center;
+  border-collapse:collapse;
+}
+td
+{
+  color:black;
+  background-color: #B19CD9;
+  border:solid black;
+  border-width:1px;
+  padding: 3px;
+}
+td.green
+{
+  color:black;
+  background-color: lightgreen !important;
+}
+td.special
+{
+  border-right:none !important;
+  border-left:none !important;
+}
+td.special2
+{
+  background-color: lightgreen !important;
+  border-right:none !important;
+  border-left:none !important;
+}
+td.special3
+{
+  background-color: lightgreen !important;
+  border-right:none !important;
+}
